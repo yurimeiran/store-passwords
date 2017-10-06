@@ -85,10 +85,10 @@ tr:nth-child(even) {
 
 <?php 
 
-$servername = "192.168.16.1:3306";
-$username = "web";
-$password = "//GE1981//Oakland5";
-$dbname = "cameras";
+$servername = "127.0.0.1:3306";
+$username = "username";
+$password = "password";
+$dbname = "db_name";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
